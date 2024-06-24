@@ -1,5 +1,5 @@
  body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     margin: 0;
     padding: 0;
 
@@ -55,8 +55,8 @@ border-radius: 0px 60px 60px 0px;
 width: 305px;
 height: 120px;
 font-weight: 700;
-font-size: 40px;
-line-height: 40px;
+font-size: 50px;
+line-height: 55px;
 color: #181A18;
 }
 
@@ -71,7 +71,47 @@ margin-top: -60px;
 }
 
 .hero-image img {
-    max-width: 100%;
-    height: auto;
+max-width: 104%;
+margin: 0;
+padding: 0;
 }
+
+.future {
+display: flex;
+padding: 50px;
+background: white;
+}
+
+.future-images {
+display: grid;
+grid-template-columns: 1fr 1fr;
+flex: 1;
+}
+
+.future-text {
+display: flex;
+flex-direction: column;
+flex: 1;
+padding: 40px;
+justify-content: center;
+border-radius: 0px 60px 60px 0px;
+background-color:#F2F0F2;
+}
+
+.future-text h2 {
+width: 480px;
+height: 54px;
+text-align: center;
+font-size: 48px;
+margin-bottom: 0;
+}
+
+.future-text p {
+width: 440px;
+height: 60px;
+font-size: 16px;
+line-height: 20px;
+margin-left: 33px;
+}
+
 
