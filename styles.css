@@ -1,5 +1,5 @@
  body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
 
@@ -112,6 +112,55 @@ height: 60px;
 font-size: 16px;
 line-height: 20px;
 margin-left: 33px;
+}
+
+.feature-text {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 80px;
+}
+
+.feature-text h2 {
+width: 847px;
+height: 108px;
+text-align: center;
+font-size: 48px;
+margin-bottom: 10px;
+}
+
+.feature-text p {
+width: 847px;
+height: 48px;
+text-align: center; 
+font-size: 18px;
+line-height: 24px;
+}
+
+.feature-services {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 20px;
+}
+
+.feature-service {
+display: flex;
+flex: 1;
+padding: 20px;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 40px;
+gap: 16px;
+width: 305px;
+height: 248px;
+background: #E2F1E8;
+border-radius: 30px;
+}
+
+.feature-service .calendar, .couch, .wifi, .comment-dots {
+
 }
 
 
