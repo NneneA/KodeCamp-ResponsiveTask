@@ -31,9 +31,12 @@
 }
 
 .hero {
-    display: flex;
-    padding: 50px;
-
+display: flex;
+padding: 50px;
+background-image: url(./Images/Hero-image.png);
+background-size: cover;
+width: 92.6%;
+height: 650px;
 }
 
 .hero-text {
@@ -70,16 +73,17 @@ color: #181A18;
 margin-top: -60px;
 }
 
-.hero-image img {
+/*.hero-image img {
 max-width: 104%;
 margin: 0;
 padding: 0;
-}
+}*/
 
 .future {
 display: flex;
 padding: 50px;
 background: white;
+margin-top: 100px;
 }
 
 .future-images {
@@ -148,7 +152,6 @@ gap: 20px;
 .feature-service {
 display: flex;
 flex: 1;
-padding: 20px;
 flex-direction: column;
 align-items: flex-start;
 padding: 32px 40px;
@@ -165,13 +168,21 @@ height: 32px;
 font-size: 24px;
 line-height: 32px;
 margin-bottom: 0;
+margin-top: 0;
 }
 
 .feature-service p {
 width: 225px;
 height: 60px;
 font-size: 16px;
-line-height: 20px;    
+line-height: 20px;
+margin-top: 0;  
+}
+
+.feature-service img {
+margin-top: 32px;
+margin-bottom: 16px;
+height: 50px;
 }
 
 
